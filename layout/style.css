@@ -1,0 +1,221 @@
+
+
+.cover-image{
+    width: 60%;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.friends{
+
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+
+}
+
+
+
+.ad{
+    width: 40%;
+    margin-left: 430px;
+    margin-top: 10px;
+
+}
+
+
+
+nav a{
+    padding: 70px;
+
+}
+
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    border: 4px solid lightskyblue;
+}
+
+
+
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+
+
+
+h2{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    margin-right: 150px;
+}
+
+
+
+h3{
+    color: black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+
+h4{
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+body{
+
+    background-color:#D8EEE7;
+}
+
+
+
+
+aside {
+
+    width:35%;
+    height: 1810px;
+    background-color: rgb(203,230,255);
+    float: right;
+    padding: 10px;
+    text-align: justify;
+    border: 3px solid dodgerblue;
+    clear: right;
+    font-family: monospace;
+
+}
+
+
+
+article{
+
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 40%;
+    height:1000px;
+    background-color:#F7E06C;
+    float:left;
+    margin-right:10px;
+    border: 4px solid lightskyblue;
+    padding-top: 20px;
+    padding-left: 200px;
+    text-align: center;
+    padding-right: 10px;
+    font-family: monospace;
+
+}
+
+
+
+aside{
+    float: right;
+    width: 200px;
+    height: 1000px;
+    background-color:#F8CED2 ;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-left: 0;
+
+}
+
+
+aside h3{
+    text-align: left;
+    margin-right:70px;
+}
+
+
+aside img{
+    width: 90%;
+    border: 2px solid black;
+    margin-left: 6px;
+    margin-top: 70px;
+}
+
+
+
+aside p{
+    text-align: center;
+}
+
+.about-paragraph{
+    text-align: center;
+    background-color: white;
+    width: 35%;
+    float: right;
+    color: black;
+
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+
+li{
+    display: inline;
+
+}
+
+
+li a{
+
+    line-height:50px;
+    font-size:20px;
+    margin-left:180px;
+    color: #77A6f7;
+    font-family: 'Be Vietnam', sans-serif;
+    text-decoration: none;
+
+}
+
+
+li a:hover{
+    color: #D17D7C;
+}
+
+
+
+nav {
+
+    background-color: #D8EEE7;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    position: center;
+    left: 135px;
+}
+
+
+footer{
+    height: 100px;
+    width:110%;
+    background-color:lightgrey ;
+    float:left;
+    font-family: monospace;
+    margin-right:40px;
+}
+
+
