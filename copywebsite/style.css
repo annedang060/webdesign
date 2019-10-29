@@ -1,4 +1,12 @@
 
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
 nav{
 
     height: 70px;
@@ -19,6 +27,7 @@ nav ul{
 }
 
 
+
 li{
     display: inline;
 }
@@ -33,6 +42,13 @@ li a{
     font-family: 'Montserrat', sans-serif;
 
 }
+
+li a:hover{
+
+    color: #d6a16f;
+}
+
+
 
 
 nav h3{
@@ -71,6 +87,7 @@ header{
 
 }
 
+
 header h2{
     float: left;
     margin-top: 100px;
@@ -86,18 +103,167 @@ header h2{
 }
 
 
-header h5{
+ header h5{
 
     float: left;
     margin-top: 250px;
     margin-left: -600px;
+     margin-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     text-align: center;
+    padding: 10px;
+
 
 }
 
+
+
+ .main-div{
+     width: 100%;
+     height: 540px;
+     background-color: lightgrey;
+
+
+
+ }
+
+
+ .main-picture{
+     width: 100%;
+     height: 540px;
+
+ }
+
+
+ .second-div{
+
+     width: 100%;
+     height: 540px;
+     background-color: white;
+
+ }
+
+
+ .pumpkin-cake{
+     width: 450px;
+     height: 450px;
+     margin-top: 40px;
+     margin-left: 110px;
+
+ }
+
+ .second-div h1{
+     float: right;
+     font-family: 'Darker Grotesque', sans-serif;
+     font-size: 50px;
+     margin-right: 230px;
+     text-align: center;
+     margin-top: 150px;
+     letter-spacing: 10px;
+
+ }
+
+ .second-div p{
+     float: right;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+     margin-right: 290px;
+     text-align: center;
+     margin-top: -200px;
+
+
+ }
+
+
+ .second-div h2{
+     float: right;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+     margin-right: 360px;
+     text-align: center;
+     margin-top: -110px;
+     border: 1px solid black;
+     padding: 15px;
+ }
+
+
+
+ .third-div{
+
+
+     width: 100%;
+     height: 540px;
+     background-color: #f0f0ea;
+
+
+ }
+
+
+
+
+ .third-div img{
+
+     width: 500px;
+     height: 500px;
+     float: right;
+     margin-top: 20px;
+     margin-right: 110px;
+
+ }
+
+
+
+ .third-div h1{
+     float: left;
+     font-family: 'Darker Grotesque', sans-serif;
+     font-size: 42px;
+     margin-right: 200px;
+     text-align: center;
+     margin-top: 190px;
+     letter-spacing: 10px;
+     margin-left: 270px;
+
+ }
+
+ .third-div p{
+     float: left;
+     font-family: 'Open Sans', sans-serif;
+     color: black;
+     font-size: 15px;
+     margin-left: 225px;
+     text-align: center;
+     margin-top: 15px;
+
+
+ }
+
+
+ .forth-div{
+
+     width: 100%;
+     height: 700px;
+
+
+ }
+
+ .forth-div img{
+
+     width: 500px;
+     height: 500px;
+     float: left;
+     margin-left: 110px;
+
+
+ }
+
+ .forth-div h1{
+     font-family: 'Darker Grotesque', sans-serif;
+     letter-spacing: 6px;
+     margin-top: 150px;
+
+ }
 
 
 
