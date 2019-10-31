@@ -243,27 +243,79 @@ header h2{
  .forth-div{
 
      width: 100%;
-     height: 700px;
+     height: 790px;
 
 
  }
 
- .forth-div img{
+
+
+.forth-div img{
 
      width: 500px;
      height: 500px;
      float: left;
      margin-left: 110px;
-
-
- }
-
- .forth-div h1{
-     font-family: 'Darker Grotesque', sans-serif;
-     letter-spacing: 6px;
-     margin-top: 150px;
+     margin-top: 40px;
 
  }
 
 
+
+.forth-div h1{
+
+    float: right;
+    margin-right: 290px;
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 45px;
+
+}
+
+.forth-div p{
+
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 280px;
+    margin-top: 20px;
+
+
+}
+
+.forth-div h2{
+
+    float: right;
+    margin-top: 90px;
+    margin-right: 280px;
+    font-family: 'Open Sans', sans-serif;
+    color: #c59956;
+    font-size: 31px;
+}
+
+
+
+.forth-div h4 {
+    text-align: center;
+    float: right;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-right: 330px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+footer {
+    
+    width: 100%;
+    height: 400px;
+    background-color:#2e2e2d;
+
+
+
+}
 
