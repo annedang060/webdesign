@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -7,12 +8,13 @@
 }
 
 
-nav{
+nav {
 
     height: 70px;
     width: 100%;
     background-color:#2e2e2d ;
     padding-top: 55px;
+
 }
 
 
@@ -43,7 +45,7 @@ li a{
 
 }
 
-li a:hover{
+li a:hover {
 
     color: #d6a16f;
 }
@@ -80,12 +82,14 @@ nav a{
 
 }
 
+
 header{
     height: 350px;
     width: 100%;
     background-color:#2e2e2d ;
 
 }
+
 
 
 header h2{
@@ -101,6 +105,7 @@ header h2{
 
 
 }
+
 
 
  header h5{
@@ -162,7 +167,6 @@ header h2{
      text-align: center;
      margin-top: 150px;
      letter-spacing: 10px;
-
  }
 
  .second-div p{
@@ -203,7 +207,7 @@ header h2{
 
 
 
- .third-div img{
+ .third-div img {
 
      width: 500px;
      height: 500px;
@@ -215,7 +219,7 @@ header h2{
 
 
 
- .third-div h1{
+ .third-div h1 {
      float: left;
      font-family: 'Darker Grotesque', sans-serif;
      font-size: 42px;
@@ -227,7 +231,7 @@ header h2{
 
  }
 
- .third-div p{
+ .third-div p {
      float: left;
      font-family: 'Open Sans', sans-serif;
      color: black;
@@ -250,19 +254,18 @@ header h2{
 
 
 
-.forth-div img{
+.forth-div img {
 
      width: 500px;
      height: 500px;
      float: left;
      margin-left: 110px;
      margin-top: 40px;
-
  }
 
 
 
-.forth-div h1{
+.forth-div h1 {
 
     float: right;
     margin-right: 290px;
@@ -271,10 +274,11 @@ header h2{
     letter-spacing: 8px;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 45px;
-
 }
 
-.forth-div p{
+
+
+.forth-div p {
 
     float: right;
     font-family: 'Open Sans', sans-serif;
@@ -282,11 +286,11 @@ header h2{
     text-align: center;
     margin-right: 280px;
     margin-top: 20px;
-
-
 }
 
-.forth-div h2{
+
+
+.forth-div h2 {
 
     float: right;
     margin-top: 90px;
@@ -294,11 +298,13 @@ header h2{
     font-family: 'Open Sans', sans-serif;
     color: #c59956;
     font-size: 31px;
+
 }
 
 
 
 .forth-div h4 {
+
     text-align: center;
     float: right;
     font-size: 17px;
@@ -308,14 +314,28 @@ header h2{
 }
 
 
-
-footer {
-    
+ footer {
     width: 100%;
     height: 400px;
-    background-color:#2e2e2d;
-
-
-
+    background-color: #2e2e2d;
 }
+
+
+ .facebook {
+     width: 2%;
+     height: 28px;
+     margin-top: 100px;
+     margin-left: 60px;
+
+ }
+
+
+ .twitter {
+     width: 2%;
+     height: 28px;
+     margin-top: 100px;
+     margin-left: 20px;
+
+
+ }
 
