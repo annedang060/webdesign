@@ -1,0 +1,1123 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+nav {
+
+    height: 70px;
+    width: 100%;
+    background-color:#2e2e2d ;
+    padding-top: 55px;
+
+}
+
+
+nav ul{
+
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: right;
+
+
+}
+
+
+
+li{
+    display: inline;
+}
+
+
+
+.nav-links a{
+
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 80px;
+
+
+}
+
+li a:hover {
+
+    color: #d6a16f;
+}
+
+
+
+
+nav h3{
+
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+
+
+}
+
+
+.title{
+    margin-bottom: 40px;
+
+}
+
+
+
+nav a{
+    margin-right: 70px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+
+
+}
+
+
+header{
+    height: 450px;
+    width: 100%;
+    background-color:#2e2e2d ;
+
+}
+
+
+
+header h2{
+    float: left;
+    margin-top: 200px;
+    margin-left: -325px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 7px;
+    font-weight: 100;
+    line-height: 60px;
+
+
+}
+
+
+
+header h5{
+
+    float: left;
+    margin-top: 350px;
+    margin-left: -645px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+
+
+.main-div{
+    width: 100%;
+    height: 540px;
+    background-color: lightgrey;
+
+
+
+}
+
+
+.main-picture{
+    width: 100%;
+    height: 540px;
+
+}
+
+
+.second-div{
+
+    width: 100%;
+    height: 540px;
+    background-color: white;
+
+}
+
+
+.pumpkin-cake{
+    width: 450px;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 110px;
+
+}
+
+.second-div h1{
+    float: right;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 50px;
+    margin-right: 230px;
+    text-align: center;
+    margin-top: 150px;
+    letter-spacing: 10px;
+}
+
+.second-div p{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-right: 290px;
+    text-align: center;
+    margin-top: -200px;
+
+
+}
+
+
+.second-div h2{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-right: 360px;
+    text-align: center;
+    margin-top: -110px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+
+
+.third-div{
+
+
+    width: 100%;
+    height: 540px;
+    background-color: #f0f0ea;
+
+
+}
+
+
+
+
+.third-div img {
+
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 110px;
+
+}
+
+
+
+.third-div h1 {
+    float: left;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 42px;
+    margin-right: 200px;
+    text-align: center;
+    margin-top: 190px;
+    letter-spacing: 10px;
+    margin-left: 270px;
+
+}
+
+.third-div p {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-left: 225px;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+
+.forth-div{
+
+    width: 100%;
+    height: 790px;
+
+
+}
+
+
+
+.forth-div img {
+
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+
+
+.forth-div h1 {
+
+    float: right;
+    margin-right: 290px;
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 45px;
+}
+
+
+
+.forth-div p {
+
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 280px;
+    margin-top: 20px;
+}
+
+
+
+.forth-div h2 {
+
+    float: right;
+    margin-top: 90px;
+    margin-right: 280px;
+    font-family: 'Open Sans', sans-serif;
+    color: #c59956;
+    font-size: 31px;
+
+}
+
+
+
+.forth-div h4 {
+
+    text-align: center;
+    float: right;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-right: 330px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #2e2e2d;
+}
+
+
+.facebook {
+    width: 2%;
+    height: 28px;
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+
+
+.twitter {
+    width: 2%;
+    height: 28px;
+    margin-top: 100px;
+    margin-left: 20px;
+
+
+}
+
+.instagram{
+    width: 2%;
+    height: 28px;
+    margin-top: 100px;
+    margin-left: 20px;
+
+
+}
+
+.youtube {
+    width: 2%;
+    height: 28px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.newsletter{
+    font-size: 14px;
+    color: #c59956;
+    margin-left: 60px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+.newsletter:hover{
+    color: white;
+
+
+}
+
+.footer-div{
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+
+
+
+}
+
+footer ul{
+    list-style-type: none;
+
+}
+
+
+.footer-links{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 60px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+
+
+
+
+}
+
+footer p{
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.menu-cover{
+    width: 100%;
+    height: 630px;
+    margin-top: -22px;
+
+
+
+}
+
+.menu-div2{
+
+    width: 45%;
+}
+
+
+.menu-div2 h2{
+
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    margin-left: 70px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.menu-div3{
+    width: 45%;
+    margin-right: 100px;
+    margin-top: -42px;
+    float: right;
+
+
+}
+
+.menu-div3 h2{
+
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+
+
+
+.to-share h1{
+    text-transform: uppercase;
+    float: left;
+    margin-left: 65px;
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #c59956;
+}
+
+.ceviche{
+
+    width: 33%;
+    height: 130px;
+    margin-top: 170px;
+    margin-left: 70px;
+}
+
+.ceviche h3{
+
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+.ceviche p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+
+
+}
+
+.lettuce{
+    width: 33%;
+    height: 100px;
+    margin-left: 70px;
+
+
+
+}
+
+.lettuce h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.lettuce p{
+
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px
+
+}
+
+.tuna{
+    width: 33%;
+    height: 100px;
+    margin-left: 70px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.tuna h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+.calimari{
+
+
+    width: 31%;
+    height: 100px;
+    margin-right: 390px;
+    margin-top: -330px;
+    float: right;
+
+}
+
+.calimari h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.calimari p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+
+}
+
+.chimichurri{
+
+    width: 33%;
+    height: 100px;
+    float: right;
+    margin-right: 365px;
+    margin-top: -250px;
+}
+
+.chimichurri h3{
+
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.chimichurri p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+
+
+}
+
+.edamame{
+    width: 33%;
+    height: 100px;
+    float: right;
+    margin-right: 365px;
+    margin-top: -150px;
+
+}
+
+.edamame h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.edamame p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+
+}
+
+.yam-fries{
+    width: 33%;
+    height: 100px;
+    margin-right: 365px;
+    margin-top: -70px;
+    float: right;
+
+}
+
+.yam-fries h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.yam-fries p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.truffle-fries{
+    width: 32%;
+    height: 100px;
+    margin-right: -800px;
+    margin-top: -330px;
+    float: right;
+
+}
+
+.truffle-fries h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+
+.truffle-fries p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+
+}
+
+.chicken-wings{
+    width: 32%;
+    height: 100px;
+    float: right;
+    margin-right: -800px;
+    margin-top: -250px;
+
+}
+
+.chicken-wings h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.chicken-wings p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.spicy-chicken{
+    width: 32%;
+    height: 100px;
+    float: right;
+    margin-right: -800px;
+    margin-top: -150px;
+}
+
+.spicy-chicken h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.spicy-chicken p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.greens h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #c59956;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+.raincoast-greens{
+    width: 33%;
+    height: 100px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 40px;
+
+}
+
+.raincoast-greens h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.raincoast-greens p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.rocket-salad{
+    width: 33%;
+    height: 100px;
+    float: right;
+    margin-right: 370px;
+    margin-top: 30px;
+}
+
+.rocket-salad h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.rocket-salad p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.kale{
+    width: 33%;
+    height: 100px;
+    float: right;
+    margin-right: -30px;
+    margin-top: -100px;
+}
+
+.kale h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.kale p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.add-salad{
+    width: 33%;
+    height: 100px;
+    float: right;
+    margin-right: -28px;
+}
+
+.add-salad h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.add-salad p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.bowls{
+    width: 33%;
+    height: 100px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 120px;
+
+}
+
+.bowls h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #c59956;
+
+
+}
+
+.modern-bowl{
+    width: 33%;
+    height: 100px;
+    float: left;
+    margin-top: 200px;
+    margin-left: -454px;
+}
+
+.modern-bowl h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.modern-bowl p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+
+.bowl-extras{
+    margin-top: 460px;
+    margin-left: 72px;
+
+}
+
+.bowl-extras p{
+    font-family: 'Oswald', sans-serif;
+}
+
+.tuna-poke-bowl{
+    width: 33%;
+    height: 100px;
+    margin-left: 480px;
+    margin-top: -190px;
+
+}
+
+.tuna-poke-bowl h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+.tuna-poke-bowl p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+
+}
+
+.tofu-bowl{
+    width: 33%;
+    height: 100px;
+    margin-left: 940px;
+    margin-top: -105px;
+
+}
+
+.tofu-bowl h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.tofu-bowl p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.teriyaki-bowl{
+    width: 33%;
+    height: 100px;
+    margin-left: 940px;
+
+}
+
+.teriyaki-bowl h3{
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.teriyaki-bowl p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+}
+
+.brownie{
+    width: 100%;
+    height: 580px;
+    background-color: lightgrey;
+    margin-top: 20px;
+}
+
+.brownie img{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.brownie h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    margin-right: 280px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.brownie h3{
+    float: right;
+    margin-right: 230px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -140px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.about-heading{
+    width: 100%;
+    height: 450px;
+    background-color: #2e2e2d;
+}
+
+.story-heading{
+    letter-spacing: 9px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    float: left;
+    margin-left: -260px;
+    margin-top: 330px;
+    font-size: 70px;
+
+
+
+}
+
+.about-cover{
+    width: 100%;
+    height: 640px;
+
+}
+
+.about-cover img{
+    width: 100%;
+    height: 640px;
+}
+
+.our-mission{
+    width: 100%;
+    height: 300px;
+
+}
+
+.our-mission h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #c59956;
+    float: left;
+    margin-top: 60px;
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+.our-mission p{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 80px;
+    margin-right: 80px;
+
+}
+
+.about-div1{
+    width: 100%;
+    height: 750px;
+    background-color: #2e2e2d;
+
+
+}
+
+
+
+.about-div1-text{
+    float: left;
+
+}
+
+.about-div1-text h3{
+    margin-top: 230px;
+    margin-left: 50px;
+    color: #c59956;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-div1-text p{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.about-div1 img{
+    float: right;
+    width: 50%;
+    height: 750px;
+}
+
+.about-div2{
+    width: 100%;
+    height: 750px;
+    background-color: lightgrey;
+}
+
+.about-div2-text{
+    float: right;
+    width: 50%;
+    height: 750px;
+    background-color: #f0f0ea;
+
+
+}
+
+.about-div2-text h3{
+    color: #c59956;
+    font-family: 'Alata', sans-serif;
+    float: right;
+    margin-top: 110px;
+    margin-right: 560px;
+}
+
+.about-div2-text p{
+    margin-right: 10px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.about-div2 img{
+    width: 50%;
+    height: 750px;
+}
+
+.about-div3{
+    width: 100%;
+    height: 750px;
+
+}
+
+.about-div3-text{
+    float: right;
+    width: 50%;
+    height: 750px;
+    background-color: white;
+}
+
+.about-div3-text h3{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    margin-left: 190px;
+    margin-top: 190px;
+}
+
+.about-div3-text p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: -13px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.about-div3 img{
+    width: 50%;
+    height: 710px;
+    margin-top: 15px;
+}
+
+.about-div4{
+    width: 100%;
+    height: 720px;
+    background-color: #141414;
+}
+
+.about-div4-text{
+    width: 50%;
+    height: 720px;
+    background-color: #141414;
+}
+
+.about-div4-text h3{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-top: 140px;
+    margin-left: 170px;
+}
+
+.about-div4-text p{
+    float: left;
+    margin-top: 30px;
+    margin-left: 170px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-div4 img{
+    width: 50%;
+    height: 720px;
+    float: right;
+    margin-top: -720px;
+}
+
+
+
+
