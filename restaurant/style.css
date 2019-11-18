@@ -482,39 +482,39 @@ footer p{
 }
 
 .ceviche h3{
-  
+
     text-transform: uppercase;
     font-family: 'Alata', sans-serif;
     letter-spacing: 2px;
 
-    
+
 }
 
 .ceviche p{
-   font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 15px;
 
 
 }
 
 .lettuce{
-      width: 33%;
-      height: 100px;
-      margin-left: 70px;
-      
+    width: 33%;
+    height: 100px;
+    margin-left: 70px;
+
 
 
 }
 
 .lettuce h3{
-      text-transform: uppercase;
-       font-family: 'Alata', sans-serif;
-       letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
 }
 
 .lettuce p{
 
-   font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 10px
 
 }
@@ -523,15 +523,15 @@ footer p{
     width: 33%;
     height: 100px;
     margin-left: 70px;
- 
+
     font-family: 'Open Sans', sans-serif;
 }
 
 
 .tuna h3{
-       text-transform: uppercase;
-       font-family: 'Alata', sans-serif;
-       letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
 
 
 }
@@ -548,36 +548,36 @@ footer p{
 }
 
 .calimari h3{
-   text-transform: uppercase;
+    text-transform: uppercase;
     font-family: 'Alata', sans-serif;
     letter-spacing: 2px;
 
 }
 
 .calimari p{
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 15px;
-      
+
 }
 
 .chimichurri{
 
-      width: 33%;
-      height: 100px;
-      float: right;
-      margin-right: 365px;
-      margin-top: -250px;
+    width: 33%;
+    height: 100px;
+    float: right;
+    margin-right: 365px;
+    margin-top: -250px;
 }
 
 .chimichurri h3{
 
-   text-transform: uppercase;
+    text-transform: uppercase;
     font-family: 'Alata', sans-serif;
     letter-spacing: 2px;
 }
 
 .chimichurri p{
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 15px;
 
 
@@ -643,8 +643,8 @@ footer p{
 
 
 .truffle-fries p{
-     font-family: 'Open Sans', sans-serif;
-      margin-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
 
 }
 
@@ -665,7 +665,7 @@ footer p{
 
 .chicken-wings p{
     font-family: 'Open Sans', sans-serif;
-     margin-top: 12px;
+    margin-top: 12px;
 }
 
 .spicy-chicken{
@@ -703,7 +703,7 @@ footer p{
     float: left;
     margin-left: 60px;
     margin-top: 40px;
-    
+
 }
 
 .raincoast-greens h3{
@@ -714,7 +714,7 @@ footer p{
 
 .raincoast-greens p{
     font-family: 'Open Sans', sans-serif;
-     margin-top: 12px;
+    margin-top: 12px;
 }
 
 .rocket-salad{
@@ -815,7 +815,7 @@ footer p{
 
 .bowl-extras{
     margin-top: 460px;
-    margin-left: 50px;
+    margin-left: 72px;
 
 }
 
@@ -1001,7 +1001,7 @@ footer p{
 }
 
 .about-div1 img{
-  float: right;
+    float: right;
     width: 50%;
     height: 750px;
 }
@@ -1117,11 +1117,6 @@ footer p{
     float: right;
     margin-top: -720px;
 }
-
-
-
-
-
 
 
 
