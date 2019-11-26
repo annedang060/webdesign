@@ -1,0 +1,124 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+   background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+
+nav img{
+    width: 9%;
+    margin-top: 20px;
+    margin-left: 9px;
+    float: left;
+}
+
+
+nav ul{
+
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    margin-top: 25px;
+
+}
+
+
+li {
+    display: inline;
+}
+
+
+.nav-links a{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    margin-left: 90px;
+
+}
+
+.container-1{
+
+    width: 30%;
+    height: 80px;
+    float: right;
+    display: flex;
+    background-color: white;
+
+}
+
+
+.item1 img{
+    width: 20%;
+}
+
+.item2 img{
+  width: 20%;
+
+}
+
+.item3 img{
+    width: 40%;
+}
+
+
+.item1{
+    flex-grow: 1;
+
+}
+
+.item2 {
+    flex-grow: 2;
+}
+
+.item3{
+    flex-grow: 3;
+}
+
+.main-div img{
+    width: 100%;
+    height: 680px;
+}
+
+.family-benefits-container {
+    width: 100%;
+    height: 400px;
+    background: lightgrey;
+    display: flex;
+
+}
+
+.family-benefits-container h2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+
+}
+
+
+.discounts img{
+    width: 30%;
+}
+
+.workshops img{
+    width: 30%;
+}
+
+.rewards img{
+    width: 30%;
+}
+
+.hot-chocolate img {
+    width: 40%;
+}
+
+
