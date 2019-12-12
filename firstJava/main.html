@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div id="toggleMenu" onclick="toggleMenu()"></div>
+<nav id="menu">
+
+
+    <img src="images/instaLogo.png"/>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cases</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<script>
+    var toggleStatus = 1;
+    function toggleMenu(){
+        if(toggleStatus == 1){
+            toggleStatus = 0;
+            document.getElementById("menu").style.left = "-240px";
+        }
+
+        else if(toggleStatus == 0){
+            toggleStatus = 1;
+            document.getElementById("menu").style.left = "0px";
+        }
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>
