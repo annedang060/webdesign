@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AWebsite</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="toggleMenu" onclick="toggleMenu()"></div>
+
+<header>
+
+    <h1>HOME</h1>
+</header>
+
+
+<nav id="menu">
+
+
+    <img src="images/dramabeanlogo.jpg"/>
+    <ul>
+        <li><a href="hello.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cast.html">Cast</a></li>
+
+
+    </ul>
+
+
+</nav>
+
+
+<script>
+    var toggleStatus = 1;
+    function toggleMenu() {
+        if(toggleStatus == 1){
+            toggleStatus = 0;
+            document.getElementById("menu").style.left = "-240px";
+        }
+
+        else if(toggleStatus == 0){
+            toggleStatus = 1;
+            document.getElementById("menu").style.left = "0px";
+        }
+    }
+</script>
+
+
+<img class="ad" src="images/weightliftingfairyad.jpg"/>
+
+<article>
+
+
+
+    <h2>Weightlifting fairy</h2>
+    <img class="cover-image" src="images/cover.jpg"/>
+
+
+    <div class="about-paragraph">
+        <p>Weightlifting fairy Kim Bok Joo is a coming of age drama that tells the story of athletes in college trying to achieve their dreams while enjoying their youth.
+            it follows the story of a young woman named Bok Joo (Lee Sung-Kyung) who is majoring in weightlifting and who happens to be the ace of the team</p>
+    </div>
+
+
+    <img class="friends" src="images/friendship.jpg"/>
+
+
+</article>
+
+<aside>
+    <h3>Featured videos</h3>
+
+    <img src="images/interview1.jpg"/>
+    <p>Interview with Kim-So-hyun</p>
+
+
+    <img src="images/interview2.jpg"/>
+    <p>Interview with Jang Hyuk</p>
+
+
+    <img src="images/interview3.jpg"/>
+    <p>Interview with Kim-Hye-yoon</p>
+
+</aside>
+
+
+<footer>
+
+    <h2>goodbye</h2>
+</footer>
+
+
+
+</body>
+</html>
