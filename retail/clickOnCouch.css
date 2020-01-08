@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+
+nav img{
+    width: 9%;
+    margin-top: 20px;
+    margin-left: 9px;
+    float: left;
+}
+
+
+nav ul{
+
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    margin-top: 25px;
+
+}
+
+
+li {
+    display: inline;
+}
+
+
+.nav-links a{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    margin-left: 90px;
+
+}
+
+
+.container-1{
+
+    width: 30%;
+    height: 80px;
+    float: right;
+    display: flex;
+    background-color: white;
+
+}
+
+
+.item1 img{
+    width: 20%;
+}
+
+
+.item2 img{
+    width: 20%;
+
+}
+
+.item3 img{
+    width: 40%;
+}
+
+
+.item1{
+    flex-grow: 1;
+}
+
+.item2 {
+    flex-grow: 2;
+}
+
+
+.item3{
+    flex-grow: 3;
+}
+
+.search-bar{
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+}
+
+.main-pic{
+    width: 50%;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.main-pic img{
+    width: 90%;
+    margin-left: 40px;
+}
+
+.info{
+    width: 30%;
+    height: 900px;
+    float: right;
+    margin-top: -500px;
+    margin-right: 30px;
+}
+
+.couch-name{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+}
+
+.info h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.price{
+    font-family: 'Alatsi', sans-serif;
+    margin-top: 5px;
+}
+
+.info img{
+    width: 40%;
+    margin-top: 13px;
+}
+
+.extra-info{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.price-note{
+   font-family: 'Alatsi', sans-serif;
+    margin-top: 13px;
+}
+
+.colour-options{
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.colour-options h4{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.colour-options h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.quantity{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.quantity-num{
+    width: 35%;
+    height: 60px;
+    background-color: white;
+    float: right;
+    margin-top: -40px;
+    border: 1px solid black;
+    margin-right: 40px;
+}
+
+.delete{
+     font-family: 'Quicksand', sans-serif;
+      font-size: 35px;
+     margin-left: 10px;
+}
+
+.add{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+}
+
+.one{
+     font-family: 'Quicksand', sans-serif;
+     font-size: 20px;
+     margin-left: 70px;
+     margin-top: -26px;
+}
+
+.add-to-cart{
+     width: 90%;
+     height: 70px;
+     background-color: #1044b5;
+     margin-top: 40px;
+}
+
+.add-to-cart:hover{
+    background-color: #4a68cc;
+}
+
+.add-to-cart h3{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 20px;
+    color: white;
+    margin-left: 120px;
+    padding: 20px;
+
+}
+
+.shopping-list{
+   width: 90%;
+   height: 70px;
+    background-color: #d9d8de;
+    margin-top: 30px;
+}
+
+.shopping-list h3{
+   font-family: 'Quicksand', sans-serif;
+   font-size: 20px;
+    color: black;
+    padding: 20px;
+    margin-left: 80px;
+}

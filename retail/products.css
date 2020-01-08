@@ -311,8 +311,113 @@ li {
     width: 30%;
 }
 
-
-
 .tree-serving{
     width: 30%;
 }
+
+.stools{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-basis: 23%;
+    padding: 10px;
+    justify-content: center;
+ 
+
+}
+
+.stools div{
+    width: 25%;
+    height: 350px;
+    margin: 10px;
+}
+
+.wooden-stool-img{
+    width: 60%;
+    margin-left: 70px;
+    float:left;
+}
+
+.wooden-stool h3{
+    margin-left: 65px;
+    margin-top: 230px;
+}
+
+.wooden-stool h4{
+    margin-left: 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.wooden-stool h1{
+    font-size: 25px;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+
+.black-stool-img{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+
+
+.black-stool h3{
+    margin-left: 60px;
+    margin-top: 230px;
+}
+
+.black-stool h4{
+    margin-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.black-stool h1{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.red-stool-img{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.red-stool h3{
+    margin-left: 60px;
+    margin-top: 230px;
+}
+
+.red-stool h4{
+    margin-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.red-stool h1{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+
+    .blue-stool h3{
+         margin-left: 60px;
+         margin-top: 230px;
+    }
+
+    .blue-stool h4{
+         margin-left: 60px;
+         font-family: 'Montserrat', sans-serif;
+         font-size: 17px;
+    }
+
+    .blue-stool h1{
+      font-size: 25px;
+      margin-left: 60px;
+      margin-top: 5px;
+    }
+

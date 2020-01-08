@@ -369,6 +369,10 @@ li {
 
 }
 
+.best-sellers-item1:hover{
+    background-color: lightgrey;
+}
+
 .best-sellers-item1 h3{
     font-family: 'Muli', sans-serif;
     margin-top: 30px;
