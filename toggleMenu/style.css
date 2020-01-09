@@ -82,7 +82,7 @@ h4{
 
 body{
 
-    background-color:#D8EEE7;
+    background-color:white;
 }
 
 
@@ -110,7 +110,7 @@ article{
     margin-top: 50px;
     width: 40%;
     height:1000px;
-    background-color:#F7E06C;
+    background-color:white;
     float:left;
     margin-right:10px;
     border: 4px solid lightskyblue;
@@ -195,7 +195,8 @@ li a:hover{
 
 nav {
     width: 240px;
-    background-color: #F8CED2;
+    background-color: white;
+    border: 3px solid #65d1ff;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -203,6 +204,7 @@ nav {
     z-index: 1000;
     transition: all ease-in-out 200ms;
     -webkit-transition: all ease-in-out 200ms;
+
 }
 
 nav img{
@@ -215,7 +217,7 @@ nav img{
 #toggleMenu{
     width: 20px;
     height: 20px;
-    background-color: #F8CED2;
+    background-color: lightskyblue;
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
@@ -239,7 +241,7 @@ nav img{
 footer{
     height: 100px;
     width:110%;
-    background-color:lightgrey ;
+    background-color: lightskyblue ;
     float:left;
     font-family: monospace;
     margin-right:40px;
