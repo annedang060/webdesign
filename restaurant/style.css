@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -126,22 +124,6 @@ header h5{
 }
 
 
-
-.main-div{
-    width: 100%;
-    height: 540px;
-    background-color: lightgrey;
-
-
-
-}
-
-
-.main-picture{
-    width: 100%;
-    height: 540px;
-
-}
 
 
 .second-div{
@@ -1118,6 +1100,48 @@ footer p{
     margin-top: -720px;
 }
 
+.main-div{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
 
+.main-div .imgban{
+   width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}
+
+
+.main-banner #imgban3{
+   background-image: url(images/banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.main-banner #imgban2{
+    background-image: url(images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.main-banner #imgban1{
+    background-image: url(images/mainpic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
