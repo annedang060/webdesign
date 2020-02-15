@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CactusClub</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Raleway&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<nav>
+
+
+    <h3>
+        CACTUS CLUB CAFE
+    </h3>
+
+    <ul>
+
+        <li class="nav-links"><a href="home.html">HOME</a></li>
+        <li class="nav-links"><a href="menu.html">MENUS</a></li>
+        <li class="nav-links"><a href="about.html">ABOUT</a></li>
+
+
+
+
+    </ul>
+
+
+</nav>
+
+
+<header>
+
+    <h2>WELCOME TO<br> CACTUS CLUB CAFE</h2>
+    <h5><br>EXPLORE OUR MENU</h5>
+
+
+</header>
+
+<article>
+
+   <div class="main-banner" id="main-banner">
+
+       <div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
+
+       <div class="imgban" id="imgban3">
+             <div class="imgban-box">
+                 <h2>BOOK A RESERVATION</h2>
+                 <p>Skip the line.<br>We accept reservations up to 30 minutes before you arrive</p>
+             </div>
+       </div>
+
+       <div class="imgban" id="imgban2">
+
+       </div>
+
+       <div class="imgban" id="imgban1">
+
+       </div>
+
+       <div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
+   </div>
+
+    <script>
+        var bannerStatus = 1;
+        var bannerTimer = 4000;
+
+        window.onload = function () {
+            bannerLoop();
+        }
+
+        var startBannerLoop = setInterval(function() {
+            bannerLoop();
+        }, bannerTimer);
+
+        document.getElementById("main-banner").onmouseenter = function() {
+            clearInterval(startBannerLoop);
+        }
+
+        document.getElementById("main-banner").onmouseleave = function() {
+            startBannerLoop = setInterval(function() {
+                bannerLoop();
+            }, bannerTimer);
+        }
+
+        document.getElementById("imgbanbtn-prev").onclick = function() {
+           if (bannerStatus === 1) {
+               bannerStatus = 2;
+           }
+           else if (bannerStatus === 2) {
+               bannerStatus = 3;
+           }
+           else if (bannerStatus === 3) {
+               bannerStatus = 1;
+           }
+           bannerLoop2();
+        }
+
+        document.getElementById("imgbanbtn-next").onclick = function() {
+           bannerLoop();
+        }
+
+        function bannerLoop() {
+            if (bannerStatus === 1) {
+                document.getElementById("imgban2").style.opacity = "0";
+                setTimeout(function() {
+                    document.getElementById("imgban1").style.right = "0px";
+                    document.getElementById("imgban1").style.zIndex = "1000";
+                    document.getElementById("imgban2").style.right = "-1410px";
+                    document.getElementById("imgban2").style.zIndex = "1500";
+                    document.getElementById("imgban3").style.right = "1410px";
+                    document.getElementById("imgban3").style.zIndex = "500";
+                }, 500);
+                setTimeout(function() {
+                    document.getElementById("imgban2").style.opacity = "1";
+                }, 1000);
+                bannerStatus = 2;
+            }
+            else if (bannerStatus === 2) {
+                document.getElementById("imgban3").style.opacity = "0";
+                setTimeout(function() {
+                    document.getElementById("imgban2").style.right = "0px";
+                    document.getElementById("imgban2").style.zIndex = "1000";
+                    document.getElementById("imgban3").style.right = "-1410px";
+                    document.getElementById("imgban3").style.zIndex = "1500";
+                    document.getElementById("imgban1").style.right = "1410px";
+                    document.getElementById("imgban1").style.zIndex = "500";
+                }, 500);
+                setTimeout(function() {
+                    document.getElementById("imgban3").style.opacity = "1";
+                }, 1000);
+                bannerStatus = 3;
+            }
+            else if (bannerStatus === 3) {
+                document.getElementById("imgban1").style.opacity = "0";
+                setTimeout(function() {
+                    document.getElementById("imgban3").style.right = "0px";
+                    document.getElementById("imgban3").style.zIndex = "1000";
+                    document.getElementById("imgban1").style.right = "-1410px";
+                    document.getElementById("imgban1").style.zIndex = "1500";
+                    document.getElementById("imgban2").style.right = "1410px";
+                    document.getElementById("imgban2").style.zIndex = "500";
+                }, 500);
+                setTimeout(function() {
+                    document.getElementById("imgban1").style.opacity = "1";
+                }, 1000);
+                bannerStatus = 1;
+            }
+
+        }
+
+
+        function bannerLoop2() {
+            if (bannerStatus === 1) {
+                document.getElementById("imgban3").style.opacity = "0";
+                setTimeout(function() {
+                    document.getElementById("imgban1").style.right = "0px";
+                    document.getElementById("imgban1").style.zIndex = "1000";
+                    document.getElementById("imgban2").style.right = "1410px";
+                    document.getElementById("imgban2").style.zIndex = "500";
+                    document.getElementById("imgban3").style.right = "-1410px";
+                    document.getElementById("imgban3").style.zIndex = "1500";
+                }, 500);
+                setTimeout(function() {
+                    document.getElementById("imgban3").style.opacity = "1";
+                }, 1000);
+                bannerStatus = 2;
+            }
+            else if (bannerStatus === 2) {
+                document.getElementById("imgban1").style.opacity = "0";
+                setTimeout(function() {
+                    document.getElementById("imgban2").style.right = "0px";
+                    document.getElementById("imgban2").style.zIndex = "1000";
+                    document.getElementById("imgban3").style.right = "1410px";
+                    document.getElementById("imgban3").style.zIndex = "500";
+                    document.getElementById("imgban1").style.right = "-1410px";
+                    document.getElementById("imgban1").style.zIndex = "1500";
+                }, 500);
+                setTimeout(function() {
+                    document.getElementById("imgban1").style.opacity = "1";
+                }, 1000);
+                bannerStatus = 3;
+            }
+            else if (bannerStatus === 3) {
+                document.getElementById("imgban2").style.opacity = "0";
+                setTimeout(function() {
+                    document.getElementById("imgban3").style.right = "0px";
+                    document.getElementById("imgban3").style.zIndex = "1000";
+                    document.getElementById("imgban1").style.right = "1410px";
+                    document.getElementById("imgban1").style.zIndex = "500";
+                    document.getElementById("imgban2").style.right = "-1410px";
+                    document.getElementById("imgban2").style.zIndex = "1500";
+                }, 500);
+                setTimeout(function() {
+                    document.getElementById("imgban2").style.opacity = "1";
+                }, 1000);
+                bannerStatus = 1;
+            }
+
+        }
+
+
+
+
+
+
+
+    </script>
+
+
+
+    <div class="second-div">
+
+
+        <img class="pumpkin-cake" src="images/pumpkin.cake.jpg" alt="pumpkin cake"/>
+        <h1>PUMPKIN<br>CHEESECAKE</h1>
+        <p>Fall into autumn with your favourite<br>pumpkin dessert.</p>
+        <h2>VIEW MENU</h2>
+
+
+    </div>
+
+
+    <div class="third-div">
+
+
+        <img src="images/storepic.jpg" alt="picture of store"/>
+
+        <h1>SQUARE<br>STATION</h1>
+        <p>NOW OPEN, Burnaby's fourth Cactus Club<br>Cafe. Make a reservation and be one of the<br> first to enjoy our newest location.</p>
+
+
+    </div>
+
+
+    <div class="forth-div">
+
+
+        <img src="images/maindrink.jpg" alt="picture of featured drink on home page"/>
+
+        <h1>HAPPINESS<br>IS...</h1>
+        <p>Happy Hour with a Passion Fruit Bellini<br>in hand.</p>
+        <h2>We are always looking for best-in-class talent to join our team.</h2>
+        <h4>Learn more about our current service and culinary opportunities — including our industry-leading<br>compensation package.</h4>
+
+    </div>
+
+
+
+</article>
+
+
+<footer>
+
+
+    <img class="facebook"  src="images/facebook.png" alt="facebook logo"/>
+    <img class="twitter"   src="images/twitter.png" alt="twitter logo"/>
+    <img class="instagram" src="images/instagram.png" alt="instagram logo"/>
+    <img class="youtube"   src="images/youtube.png" alt="youtube logo"/>
+
+    <h4><a class="newsletter" href="#">Join the cactus dish newsletter</a></h4>
+
+    <div class="footer-div">
+
+        <ul>
+
+
+
+            <li><a class="footer-links" href="#">our story</a></li>
+            <li><a class="footer-links" href="#">blog</a></li>
+            <li><a class="footer-links" href="#">feedback</a></li>
+            <li><a class="footer-links" href="#">contact</a></li>
+            <li><a class="footer-links" href="#">suppliers</a></li>
+            <li><a class="footer-links" href="#">accessibility</a></li>
+            <li><a class="footer-links" href="#">privacy</a></li>
+            <li><a class="footer-links" href="#">terms of use</a></li>
+            <li><a class="footer-links" href="#">sitemap</a></li>
+
+        </ul>
+
+    </div>
+
+
+    <p>@ 2019. cactus club cafe. all rights reserved.</p>
+
+</footer>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
